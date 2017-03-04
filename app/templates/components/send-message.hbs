@@ -1,0 +1,4 @@
+{{#bs-form model=this onSubmit=(action "submit") as |form|}}
+  {{form.element controlType="textarea" label="Message" property="message"}}
+  {{bs-button defaultText="Submit" type="primary" buttonType="submit"}}
+{{/bs-form}}
